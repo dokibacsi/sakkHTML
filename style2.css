@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+
+body{
+    background-color: lemonchiffon;
+}
+
+main{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+table{
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 25pt;
+    font-family: 'Nerko One';
+    margin: 10px;
+}
+
+thead{
+    background-color: lightblue;
+}
+
+th, td, tr{
+    font-family: 'Unna';
+}
+
+td{
+    text-align: right;
+}
+
+thead th{
+    padding: 10px;
+    font-family: 'Dancing Script';
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(220, 220, 220);
+    border-bottom: 2px solid lightgray;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(240, 240, 240);
+    border-bottom: 2px solid lightgray;
+    
+}
